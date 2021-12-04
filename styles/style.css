@@ -64,6 +64,12 @@ body {
   padding-left: 500px;
   color: #45054b; }
 
+.titleRef {
+  text-decoration: none;
+  color: #45054b; }
+  .titleRef:hover {
+    color: #a27da8; }
+
 .d-flex {
   padding-left: 260px;
   color: #45054b; }
@@ -335,4 +341,6 @@ body {
   .galeria__filas {
     margin: auto; }
   .footer__pagos-img {
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+  .footer__pagos {
+    padding-top: 20px; } }

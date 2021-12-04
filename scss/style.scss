@@ -93,6 +93,13 @@ body{
     padding-left: 500px;
     color: $colorLetras;
 }
+.titleRef{
+    text-decoration: none;
+    color: $colorLetras;
+    &:hover{
+        color: $colorPrimario;
+    }
+}
 .d-flex{
     padding-left: 260px;
     color: $colorLetras;
