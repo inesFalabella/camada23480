@@ -344,3 +344,45 @@ body {
     grid-template-columns: 1fr 1fr; }
   .footer__pagos {
     padding-top: 20px; } }
+
+/* Pagina 404 */
+.error {
+  margin: 0;
+  padding: 0;
+  background: #ee9ca7;
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh; }
+
+.container-404 {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center; }
+
+.container-404 h1 {
+  font-size: 160px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+  background: url(../bcg.jpg) center no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+.container-404 a {
+  text-decoration: none;
+  background: #70116b;
+  color: white;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s; }
+
+.container-404 a:hover {
+  background: #ee9ca7; }
